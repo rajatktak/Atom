@@ -1,0 +1,689 @@
+<html>
+
+<head>
+  <title>ATOM</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/gif" href="https://images-na.ssl-images-amazon.com/images/I/61-4lBu7ZWL._SX425_.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Josefin+Slab|Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Monoton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Kumar+One+Outline" rel="stylesheet">
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Orbitron" rel="stylesheet">
+  <link href="animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<script>
+  window.onbeforeunload = function() {
+    window.scrollTo(0, 0);
+  }
+</script>
+<style>
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background: #0f9d58;
+    border-radius: 10px;
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0f9d58;
+  }
+
+  #a {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+  }
+
+  #b {
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%
+  }
+
+  #c {
+    display: inline-flex;
+    color: white;
+    font-size: 15px;
+    list-style: none;
+
+  }
+
+  #d {
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 5px;
+    padding-right: 30px;
+    color: white;
+  }
+
+  p#error {
+    background-color: transparent;
+    padding: 30px 5px 15px 5px;
+    font-family: 'Special Elite', cursive;
+    margin: 60px;
+    float: left;
+    color: #c6d5c2;
+    font-size: 50px;
+  }
+
+
+  body {
+    background: black;
+    overflow-x: hidden;
+  }
+
+  #g {
+
+    position: relative;
+    animation-name: ab;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ab {
+    0% {
+      color: black;
+      left: 0px;
+      top: 0px;
+    }
+
+    25% {
+      color: red;
+      left: 0px;
+      top: 0px;
+    }
+
+    50% {
+      color: black;
+      left: 0px;
+      top: 0px;
+    }
+
+    75% {
+      color: red;
+      left: 0px;
+      top: 0px;
+    }
+
+    100% {
+      color: black;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  #e {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+  }
+
+  #img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #s {
+    float: right;
+    padding-right: 5px;
+  }
+
+  #p {
+    font-family: 'Monoton', cursive;
+  }
+
+  .parallax {
+
+    background-attachment: fixed;
+
+  }
+
+  #q {
+    color: white;
+    font-size: 15px;
+    float: left;
+    color: #c6d5c2;
+    opacity: 0.5;
+  }
+
+  #z {
+    color: red;
+    font-size: 50px;
+    font-family: 'Rye', cursive;
+  }
+
+  #r {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Marck Script', cursive;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    transition: 1s;
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  ul li {
+
+    list-style: none;
+    text-align: center;
+    transition: 0.5s;
+
+  }
+
+  ul li a {
+    display: block;
+    position: static;
+    padding-left: 15px;
+    font-size: 15px;
+    transition: 0.5s;
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
+  ul:hover li a {
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+  }
+
+  ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0px);
+    color: white;
+    opacity: 1;
+    border-radius: 5px;
+    text-decoration: none;
+
+  }
+
+  ul li a:before {
+    background: white;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    background: transparent;
+    z-index: -1;
+  }
+
+  ul li a:hover:before {
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+    background: white;
+
+
+  }
+
+  #v {
+    font-size: 60px;
+    color: white;
+  }
+
+
+
+  #t {
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+  }
+
+  #aaa {
+    color: white;
+    max-width: 50%
+  }
+
+  #qqq {
+    border: 3px double white;
+  }
+
+  #qwq {
+    color: #666;
+  }
+
+  #qwq:hover {
+    color: red;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h6 {
+    color: #666;
+  }
+
+  section {
+    padding: 60px 0;
+    min-height: 100vh;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .main-footer {
+    position: relative;
+    background: #1e2129;
+  }
+
+  .footer-content {
+    position: relative;
+    padding: 85px 0px 80px 0px;
+  }
+
+  .footer-content:before {
+    position: absolute;
+    content: '';
+    background: url(https://i.ibb.co/jyRLrBZ/world-map.png);
+    width: 744px;
+    height: 365px;
+    top: 50px;
+    right: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: float-bob;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: float-bob;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: float-bob;
+    -moz-animation-duration: 30s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob;
+    -ms-animation-duration: 30s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob;
+    -o-animation-duration: 30s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+  }
+
+  .footer-content .logo-widget {
+    position: relative;
+    margin-top: -5px;
+  }
+
+  .footer-content .logo-widget .footer-social li {
+    position: relative;
+    display: inline-block;
+    margin-right: 9px;
+  }
+
+  .footer-content .logo-widget .footer-social li:last-child {
+    margin-right: 0px;
+  }
+
+  .footer-content .logo-widget .footer-social li a {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    background: #2e3138;
+    color: #9ea0a9;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .footer-content .logo-widget .footer-social li a:hover {
+    color: #ffffff;
+    background: #ff5e14;
+  }
+
+  .footer-content .logo-widget .logo-box {
+    margin-bottom: 25px;
+  }
+
+  .footer-content .logo-widget .text p {
+    color: #9ea0a9;
+    margin-bottom: 32px;
+  }
+
+  .footer-content .footer-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 27px;
+  }
+
+  .footer-content .service-widget .list li {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .footer-content .service-widget .list li a {
+    position: relative;
+    display: inline-block;
+    color: #9ea0a9;
+  }
+
+  .footer-content .service-widget .list li a:hover {
+    color: #ff5e14;
+  }
+
+  .footer-content .contact-widget p {
+    color: #9ea0a9;
+    margin-bottom: 15px;
+  }
+
+  .footer-content .contact-widget {
+    margin-left: 90px;
+  }
+
+  .footer-content .contact-widget .footer-title {
+    margin-bottom: 29px;
+  }
+
+  /** footer-bottom **/
+
+  .footer-bottom {
+    position: relative;
+    background: #13151a;
+    padding: 25px 0px 22px 0px;
+  }
+
+  .footer-bottom .copyright,
+  .footer-bottom .copyright a,
+  .footer-bottom .footer-nav li a {
+    position: relative;
+    color: #9ea0a9;
+  }
+
+  .footer-bottom .copyright a:hover,
+  .footer-bottom .footer-nav li a:hover {
+    color: #ff5e14;
+  }
+
+  .footer-bottom .footer-nav {
+    position: relative;
+    text-align: right;
+  }
+
+  .footer-bottom .footer-nav li {
+    position: relative;
+    display: inline-block;
+    margin-left: 29px;
+  }
+
+  .footer-bottom .footer-nav li:first-child {
+    margin-left: 0px;
+  }
+
+  .footer-bottom .footer-nav li:before {
+    position: absolute;
+    content: '';
+    background: #9ea0a9;
+    width: 1px;
+    height: 14px;
+    top: 7px;
+    left: -18px;
+  }
+
+  .footer-bottom .footer-nav li:first-child:before {
+    display: none;
+  }
+
+  .logo-box img {
+    max-width: 220px;
+  }
+</style>
+
+<body>
+  <nav id="b" class="navbar navbar-inverse nabbar-dark bg-dark ">
+    <div class="container-fluid">
+      <font color="white">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#">
+            <div id="a"><img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX15759686.jpg" heigth="25" width="25">ATOM</div>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <center>
+            <ul id="c">
+              <span id="d"><a href="#">Home</a></span>
+              <span id="d"><a href="#">Login</a></span>
+              <span id="d"><a href="#">about</a></span>
+              <span id="d"><a href="#">phones</a></spam>
+            </ul>
+          </center>
+
+        </div>
+    </div>
+  </nav><br><br><br>
+
+
+  <section style="display:block;">
+
+    <p id="error"><br>VICTSING Mouse<br>
+      <spam id="q">Move live butter work like pro</spam>
+    </p>
+    <img class="wow fadeInRight" id="img-responsive" src="1.gif" align="right" />
+  </section>
+  <section id="qqq" class="container">
+    <center>
+      <p id="v" class="wow flipInY" style="font-family: 'Rye', cursive;">About us</p>
+      <hr id="aaa">
+    </center><br><br>
+    <center>
+      <p id="t" class="wow zoomInLeft" style="font-family: 'Cormorant Garamond', serif;">Our company ATOM is a new
+        participant in the
+        market of phones but it is not less then any other brand as we think that no other brand can provide the quality
+        which we provide on the same price.
+        This company is founded by Rajat Tak. we have various products like phone , laptop , headphone , earphoneand
+        many more .This company is a great success because of
+        our great reserch team,design team, and all the staff the do a lot's of work to make this company bigger and
+        better.We have store and survice all over the globe
+        and we also provied international warrenty on all gagets.we have our own operating system which is known as
+        AOS(Atom Operating System).this system is very advance and
+        it will never hang as it is tested and we also use our own manefactured chips which are called as Rchips.The
+        latest version of this chip id R-06.and we also make our own display
+        which are superpowerful and the are specially degined as they do not harm your eyes.and they are super thin and
+        felxiable.so, This was a brief intro of our company ATOM.</p>
+  </section>
+  </center>
+
+  <br><br><br><br>
+  <center>
+    <div class="wow fadeInRight">
+      <p id="z">*Our vision</p>
+    </div>
+  </center>
+  <img class="wow fadeInDown" src="2.png" align="left" id="img-responsive">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <p id="r" class="wow fadeInUp">
+    Our main vision was to make a peice of tech. which is super advanceand unbeatible
+    and can perform many task to make our live easy,betterand interesting.This all was
+    started by one dream which was seen bt our founder Rajat Tak.And then it became the dream
+    of all t0he staff of ATOM . And we are also fortunate to get the team which can do anything
+    for this company.</p>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <center>
+    <div class="wow fadeInRight">
+      <p7 id="p" style="color:	#c6ca53;border-bottom:2px solid lightblue;font-size:30px; ">*Choose any one category from
+        the list to know more</p7>
+    </div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#pho" style="color:#c9dcb3;font-size:32;">* Phone</a></div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#lap" style="color:#c9dcb3;font-size:32;">* laptop</a></div><br><br>
+    <div class="wow fadeInLeft"> <a id=e href="#len" style="color:#c9dcb3;font-size:32;">* lens</a></div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#hea" style="color:#c9dcb3;font-size:32;">* headphone</a></div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#mou" style="color:#c9dcb3;font-size:32;">* mouse</a></div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#dsl" style="color:#c9dcb3;font-size:32;">* DSLR</a></div><br><br>
+    <div class="wow fadeInLeft"><a id=e href="#spe" style="color:#c9dcb3;font-size:32;">* speaker</a></div><br><br>
+
+
+
+
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+              <div class="logo-widget footer-widget">
+                <figure class="logo-box"><a href="#">
+                    <h1>ATOM</h1>
+                    <h6>Small always matter</h6>
+                    </h1>
+                  </a></figure>
+                <div class="text">
+                  <p>All you need at great price and quality. Atom work on all small error to make thing better for you.
+                    .</p>
+                </div>
+                <ul class="footer-social">
+                  <li><span><i id="qwq" class="fab fa-facebook-f fa-2x"></i></span></li>
+                  <li><i id="qwq" class="fab fa-twitter fa-2x"></i></li>
+                  <li><i id="qwq" class="fab fa-vimeo-v fa-2x"></i></li>
+                  <li><i id="qwq" class="fab fa-google-plus-g fa-2x"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+              <div class="service-widget footer-widget">
+                <div class="footer-title">Services</div>
+                <ul class="list">
+                  <li><a href="#">Phone</a></li>
+                  <li><a href="#">Replace</a></li>
+                  <li><a href="#">Exchange</a></li>
+                  <li><a href="#">EMI</a></li>
+                  <li><a href="#">Deal of the day</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+              <div class="contact-widget footer-widget">
+                <div class="footer-title">Contacts</div>
+                <div class="text">
+                  <p>Atom company ,delhi</p>
+                  <p>9998889998</p>
+                  <p>Atomco@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- main-footer end -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 column">
+            <div class="copyright"><a href="#">Atom</a> &copy; 2019 All Right Reserved</div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 column">
+            <ul class="footer-nav">
+              <li><a href="#" style="padding-right:15px;">Login</a></li>
+              <li><a href="#">Signup</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+</body>
+
+</html>
